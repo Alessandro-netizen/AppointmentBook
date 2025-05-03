@@ -33,7 +33,7 @@ public class AppointmentBook {
                 block = 0;
             }
         }
-        return -1; // Ensure a return statement when no block is found
+        return -1;
     }
 
     public boolean makeAppointment(int startPeriod, int endPeriod, int duration) {
@@ -44,7 +44,7 @@ public class AppointmentBook {
                 return true;
             }
         }
-        return false; // Ensure a return statement outside the loop
+        return false; 
     }
 }
 
